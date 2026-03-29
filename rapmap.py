@@ -14,7 +14,7 @@ import heapq
 
 '''
 
-CSV_FILE = r"DHH Database.csv"
+CSV_FILE = "DHH Database.csv"
 
 VIBES = ["Aggressive", "Chill", "Conscious", "Motivational", "Sad"]
 
@@ -396,7 +396,7 @@ def visualize_graph(G, df, seed_id):
     plt.axis("off")
     plt.tight_layout()
 
-    output_path = r"D:\STUDY MATERIALS\VIT\Second sem\vityarthi project\rapmap_graph.png"
+    output_path = "rapmap_graph.png"
     plt.savefig(output_path, dpi=150, bbox_inches="tight")
     plt.show()
     print(f"  Graph saved to: {output_path}")
